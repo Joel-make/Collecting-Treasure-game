@@ -131,6 +131,7 @@ function draw()
 
   drawSprites();
   stroke("black");
+  strokeWeight(7);
   textSize(20);
   fill(255);
   text("Treasure: "+ treasureCollection,150,30);
